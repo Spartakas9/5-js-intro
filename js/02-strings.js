@@ -49,7 +49,7 @@ console.log(petrasBacktick);
 
 // Naujausias pazymys 2.
 const marks = [10, 5, 8, 7, 2, 8];
-const markSentence = `Naujausias pazymys: ${marks[marks.length - 1]},`;
+const markSentence = `Naujausias pazymys: ${marks[marks.length - 1]}.`;
 console.log(markSentence);
 
 const navHTML2 = `<nav>

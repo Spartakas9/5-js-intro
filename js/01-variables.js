@@ -47,14 +47,12 @@ const age = 99
 const petrasAge = petrasName + ' age is ' + age + '.';
 console.log(petrasAge);
 
+
 console.log('----------------------');
 
 // sarasas (array)
 const pazymiai = [5, 7, 8, 3, 10, 7];
 console.log(pazymiai);
-
-const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
-console.log(abc);
 
 const pirmasPazymys = pazymiai[0];
 console.log(pirmasPazymys);
@@ -71,3 +69,18 @@ const pazymiuVidurkis = pazymiuSuma / pazymiuKiekis;
 console.log('Pazymiu suma:', pazymiuSuma);
 console.log('Pazymiu kiekis:', pazymiuKiekis);
 console.log('Pazymiuvidurkis', pazymiuVidurkis);
+
+
+console.log('----------------------');
+
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(abc);
+
+// Is mums zinomos 6 raidziu abeceles paskutine yra "f".
+const abcIlgis = abc.length;
+const paskutinesRaidesPozicija = abcIlgis - 1;
+const paskutineRaide = abc[paskutinesRaidesPozicija];
+
+const abcAtsakymas = 'Is mums zinomos ' + abcIlgis + ' raidziu abeceles paskutine yra "' + paskutineRaide + '".';
+console.log(abcAtsakymas);
