@@ -23,7 +23,7 @@ console.log(ats);
 
 
 const c = 8;
-const d = 5;
+const d = 7;
 
 const ats2 = c > d ? 'daugiau' : 'ne daugiau';
 
