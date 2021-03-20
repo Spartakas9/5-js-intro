@@ -1,17 +1,20 @@
 function daugyba (a, b) {
     // parametru validacija
-    
+
     if (typeof a !== 'number') {
         return 'Pirmasis parametras turi buti skaiciaus tipo';
     }
-    if (isNaN(a) || a === Infinity || a === -Infinity) {
+    /* if (isNaN(a) || a === Infinity || a === -Infinity) {
+        return `Pirmasis parametras turi buti normalus skaiciaus ir negali buti ${a}`;
+    } */
+    if (!isFinite(a)) {
         return `Pirmasis parametras turi buti normalus skaiciaus ir negali buti ${a}`;
     }
     
     if (typeof b !== 'number') {
         return 'Antrasis parametras turi buti skaiciaus tipo';
     }
-    if (isNaN(b) || b === Infinity || b === -Infinity) {
+    if (!isFinite(b)) {
         return `Antrasis parametras turi buti normalus skaiciaus ir negali buti ${b}`;
     }
 
