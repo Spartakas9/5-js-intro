@@ -18,7 +18,7 @@ function bigNum(list) {
             continue;        // eina i sekancia ciklo iteracija
         }
 
-        // ar kos didesnis uz jau zinoma didzia\usia skaiciu
+        // ar kos didesnis uz jau zinoma didziausia skaiciu
         if (number > biggest) {
             biggest = number
         }
