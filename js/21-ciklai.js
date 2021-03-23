@@ -159,6 +159,12 @@ console.log(desimtainiai);
 console.log(sveikieji);
 
 
+/************************************/
+
+// FILTER
+
+
+
 
 
 
