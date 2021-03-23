@@ -100,3 +100,65 @@ do {
     }
     dwi++;
 } while (dwi < 5)
+
+console.clear();
+
+// FOREACH
+
+let FEsuma = 0;
+
+list.forEach(n => FEsuma += n)
+
+console.log(FEsuma);
+
+
+
+const doubleList = [[1, 5], [8, 99], [ -8, -7, 15, 4], [3]];
+let dlSuma = 0;
+
+doubleList.forEach(innerList => innerList.forEach(n => dlSuma += n));
+
+console.log(dlSuma);
+
+
+
+
+
+
+console.clear();
+
+// MAP
+// map() metodas perejes per duota sarasa grazina tokio pacio dydzio sarasa, 
+
+const mapList = [1, 2, 3, 4, 5, 6];
+const forListSquare = [];
+
+for (const num of mapList) {
+    forListSquare.push(num * num);
+}
+
+console.log(forListSquare);
+
+const mapListSquare = mapList.map(n => n*n);
+console.log(mapListSquare);
+
+/************************************/
+
+console.clear();
+
+// uzdavinys: visi neigiami skaiciai turi buti konvertuoti i nuli
+const pazymiai = [10, -8, 2, -6, 8, -2];
+
+const konvertuotiPazymiai = pazymiai.map(n => n < 0 ? 0 : n);
+console.log(konvertuotiPazymiai);
+
+const desimtainiai = [3.14, 5, 6.7, -14.7, -8, 0.001];
+
+const sveikieji = desimtainiai.map(n => Math.round(n));
+console.log(desimtainiai);
+console.log(sveikieji);
+
+
+
+
+
